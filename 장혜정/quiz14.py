@@ -1,0 +1,11 @@
+"""14. 대문자는 소문자로, 소문자는 대문자로 출력하고
+영어가 아닌 문자가 입력 되었을 때는
+'입력 형식이 잘못되었습니다' 라고 출력하는 프로그램을 작성하시오."""
+my_char = input('영문자를 입력하시오 : ')
+
+if (my_char >= 'A') and (my_char <= 'Z'):
+    print(my_char.lower())
+elif (my_char >= 'a') and (my_char < 'z'):
+    print(my_char.upper())
+else:
+    print('입력 형식이 잘못되었습니다')
