@@ -5,4 +5,12 @@ file = ['exit.py',hi.py','playdata.hwp',intro.jpg']
 
 결과:
 file = ['exit',hi','playdata',intro']
+
+예시
+<입력>
+print(new_list)
+
+<출력>
+['exit', 'hi', 'playdata', 'intro']
+
 """
