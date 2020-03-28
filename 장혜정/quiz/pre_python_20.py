@@ -6,8 +6,6 @@ for num in range(1,101):
     myNum = num
     if num % 10 == 3 or num % 10 == 6 or num % 10 == 9:
         myNum = '짝'
-        if num // 10 == 3 or num // 10 == 6 or num // 10 == 9:
-            myNum = '짝짝'
     elif num // 10 == 3 or num // 10 == 6 or num // 10 == 9:
         myNum = '짝'
     elif num % 5 == 0:
